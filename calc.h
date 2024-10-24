@@ -3,8 +3,9 @@
 
 class Calc {
 public:
-    double FuncA();
+    double FuncA();  
 };
 
-#endif 
+#endif
+
 

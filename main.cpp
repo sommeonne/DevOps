@@ -2,8 +2,11 @@
 #include "calc.h"
 
 int main() {
-    Calc calculator;
-    std::cout << "Result of FuncA: " << calculator.FuncA() << std::endl;
+    Calc calc;
+
+    double result = calc.FuncA();
+    std::cout << "Result of FuncA for the first 3 elements: " << result << std::endl;
+
     return 0;
 }
 
