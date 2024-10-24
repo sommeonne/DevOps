@@ -3,9 +3,12 @@
 
 class Calc {
 public:
-    double FuncA();  
+
+    // The FuncA function calculates the sum of series terms based on the provided parameter.
+    // n - the number of elements to compute.
+    
+    double FuncA(int n);  
 };
 
 #endif
-
 

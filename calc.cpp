@@ -10,10 +10,10 @@ double factorial(int num) {
     return fact;
 }
 
-double Calc::FuncA() {
+double Calc::FuncA(int n) {
     double x = 1.0; 
     double sum = 0;
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < n; ++i) {
         double term = std::pow(-1, i) * factorial(2 * i) / 
                       (std::pow(4, i) * std::pow(factorial(i), 2)) * 
                       std::pow(x, i);
